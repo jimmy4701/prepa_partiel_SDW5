@@ -1,3 +1,26 @@
+/* 
+    Ajouter du style en fonction du type d'élément : 
+    - Ajouter du css à une classe, utilisez .CLASSE
+        Ex pour une div avec une classe "parent"
+        .parent { }
+
+    - Ajouter du css à un id, utiliser #ID
+        Ex pour une div avec un id "navbar"
+        #navbar { }
+
+    - Ajouter du css à tout un type de balises (par ex les balises p)
+        p { }
+
+
+    Quelques attributs css pratiques : 
+    - Couleur de fond : background-color
+    - Couleur de texte : color
+    - Marge interne d'un élément : padding
+    - Marge externe d'un élément : margin
+    - Taille d'écriture : font-size
+    - Police d'écriture : font-family
+*/
+
 body {
     margin: 0;
     padding: 0;
