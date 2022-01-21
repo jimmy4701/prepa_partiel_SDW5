@@ -58,7 +58,7 @@ p {
 }
 
 /* CSS pour l'élément qui a l'id "btn" */
-.btn {
+#btn {
     padding: 1em;
     font-size: 1.2em;
     border: none;

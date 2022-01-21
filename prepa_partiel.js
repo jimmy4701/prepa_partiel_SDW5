@@ -7,3 +7,8 @@
 
 // Afficher un texte pour vérifier que le javascript est bien chargé
 console.log("Le fichier JS est bien chargé")
+
+var total_clicks = 0
+
+console.log("Total de clics", total_clicks)
+
