@@ -22,3 +22,6 @@ const handleClick = () => {
     console.log("Total de clics", total_clicks)
 }
 
+// Ajout d'un event listener sur le bouton pour gérer les clics
+bouton.addEventListener('click', handleClick)
+
