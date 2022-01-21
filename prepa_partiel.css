@@ -1,9 +1,30 @@
-.toto {
-    background-color: rgb(154, 154, 238);
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.article {
-    border: 1px solid black;
-    margin: 20px 0;
-    font-family: Helvetica;
+/* Ajouter :
+    - Pour la classe "parent" 
+        - Un fond rouge 
+        - Un padding de 2em sur tous les cotés
+    - Pour la classe enfant
+        - Un fond bleu
+    - Pour toutes les balises p 
+        - Une police d'écriture "Helvetica"
+        - Une taille d'écriture à 1.5em
+*/
+
+.parent {
+    background-color: red;
+    padding: 2em;
 }
+
+.enfant {
+    background-color: blue;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+
