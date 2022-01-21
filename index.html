@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie Clicker</title>
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-container" id="main-container">
+            <div class="left-part">
+                <div class="cookies-total-container">
+                    <p class="cookie-label">
+                        <span id="cookie-count"></span> cookies
+                    </p>
+                    <p class="cookies-per-second-label">
+                        per second : <span id="cookie-per-second"></span>
+                    </p>
+                </div>
+                <img src="./images/cookie.png" id="cookie"/>
+            </div>
+            <div class="right-part">
+                <div id="shop-container">
+                </div>
+                <template id="shop-line-template">
+                    <div class="shop-line" id="current_item.label">
+                        <div class="left-infos">
+                            <span id="item-name"></span>
+                            <div>Prix: <span id="item-price"></span></div>
+                        </div>
+                        <div id="right-infos">
+                            
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </body>
+</html>
