@@ -10,5 +10,8 @@ console.log("Le fichier JS est bien chargé")
 
 var total_clicks = 0
 
+// Récupérer le bouton qui a l'id "btn"
+const bouton = document.getElementById('btn')
+
 console.log("Total de clics", total_clicks)
 
