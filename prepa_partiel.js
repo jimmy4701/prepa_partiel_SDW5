@@ -14,18 +14,11 @@ var total_clicks = 0
 const bouton = document.getElementById('btn')
 
 // Fonction qui gère ce que l'on fait à chaque clic
-const handleClick = (value) => {
-    console.log("La valeur est ", value)
+
+// Quand on appelle handleClick, ça doit ajouter 1 à la variable "total_clicks"
+// et afficher la variable total_clicks en console
+const handleClick = () => {
+    total_clicks++
+    console.log("Total de clics", total_clicks)
 }
-
-// Créez une fonction "addition" qui prend deux paramètres a et b et qui écrit
-// la somme de a et b en console
-// Ex: si j'appelle addition(20, 13) la console doit afficher 33
-const addition = (a,b) => {
-    console.log(a + b)
-}
-
-addition(20 , 13)
-
-console.log("Total de clics", total_clicks)
 
